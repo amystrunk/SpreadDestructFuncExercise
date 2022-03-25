@@ -6,11 +6,12 @@ const jPDinos = [
 ];
 
 // 1b
-function seeDinos(a, ...b){
-    console.log(a);
-    console.log(b);
-}
+function seeDinos(r, ...d){
+    console.log(r);
+    console.log(d);
+};
 seeDinos(...jPDinos);
+console.log(`=1=`.repeat(15));
 
 // 2a
 const jPCharacters = {
@@ -22,8 +23,9 @@ const jPCharacters = {
 // 2b
 seeCharacters = ({ellieSattler}) => {
     console.log(ellieSattler);
-}
+};
 seeCharacters(jPCharacters);
+console.log(`=2=`.repeat(15));
 
 // Bonus
 // 3a
